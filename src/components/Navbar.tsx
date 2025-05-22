@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-[1150px] h-full mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center">
           <div className="text-2xl font-bold text-white">
-            <span className="text-[#FE2C55]">Tik</span>Tok
+            <span className="text-[#FE2C55]">Erick</span> Thonon
           </div>
         </div>
 
@@ -26,10 +26,10 @@ const Navbar: React.FC = () => {
 
         <div className="flex items-center space-x-3">
           <button className="hidden md:flex items-center px-4 py-1.5 text-[#FE2C55] border border-[#FE2C55] rounded-md hover:bg-[#FE2C55]/10 transition-colors">
-            <span className="font-medium">Upload</span>
+            <span className="font-medium">CV</span>
           </button>
           <button className="hidden md:flex items-center px-6 py-1.5 bg-[#FE2C55] text-white rounded-md hover:bg-[#FE2C55]/90 transition-colors">
-            <span className="font-medium">Log in</span>
+            <span className="font-medium">Contact</span>
           </button>
           
           <div className="md:hidden flex items-center">

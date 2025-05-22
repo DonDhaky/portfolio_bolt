@@ -60,10 +60,10 @@ const VideoFeed: React.FC = () => {
     <div className="py-5 px-3 border-l border-gray-800 min-h-[calc(100vh-64px)]">
       <div className="mb-5 flex space-x-8 border-b border-gray-800 pb-2">
         <button className="text-white font-semibold pb-2 relative">
-          For You
+          Projets
           <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#FE2C55]"></div>
         </button>
-        <button className="text-gray-400 font-semibold pb-2">Following</button>
+        <button className="text-gray-400 font-semibold pb-2">Blog</button>
       </div>
       
       <div className="space-y-6">

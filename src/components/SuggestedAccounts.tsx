@@ -54,7 +54,7 @@ const SuggestedAccounts: React.FC = () => {
     <div className="pt-5 sticky top-20">
       <div className="pb-5 border-b border-gray-800">
         <div className="mb-4">
-          <p className="font-semibold">Suggested accounts</p>
+          <p className="font-semibold">Quizz conseillés</p>
         </div>
         <div className="space-y-3">
           {accounts.map(account => (
@@ -77,12 +77,12 @@ const SuggestedAccounts: React.FC = () => {
                 </div>
                 <p className="text-gray-400 text-sm truncate">{account.name}</p>
               </div>
-              <button className="text-[#FE2C55] font-medium text-sm">Follow</button>
+              <button className="text-[#FE2C55] font-medium text-sm">Jouer</button>
             </div>
           ))}
         </div>
         <div className="mt-4">
-          <button className="text-[#FE2C55] text-sm hover:underline">See all</button>
+          <button className="text-[#FE2C55] text-sm hover:underline">Voir tous les quizz</button>
         </div>
       </div>
       

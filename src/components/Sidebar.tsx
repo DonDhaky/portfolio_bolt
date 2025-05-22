@@ -1,28 +1,18 @@
 import React from 'react';
-import { Users, Info, VideoIcon } from 'lucide-react';
+import { Computer, Tablet, Gamepad } from 'lucide-react';
 
 const Sidebar: React.FC = () => {
   return (
     <div className="sticky top-16 h-[calc(100vh-64px)] w-[75px] md:w-[240px] bg-black border-r border-gray-800 overflow-y-auto pt-2 flex-shrink-0">
       <div className="px-2">
-        <div className="flex flex-col">
-          <NavItem icon={<Info size={22} />} label="A propos" active />
-        </div>
-        
-        <div className="px-2 mt-4 mb-2 hidden md:block">
-          <p className="text-gray-500 text-xs">Cliquez ici pour me contacter !</p>
-          <button className="w-full mt-3 py-2 px-4 border border-[#FE2C55] text-[#FE2C55] rounded-md font-medium hover:bg-[#FE2C55]/10 transition-colors">
-            Contact
-          </button>
-        </div>
         
         <div className="mt-6">
-          <p className="text-gray-400 text-sm font-semibold px-2 hidden md:block mb-2">Découvrir</p>
+          <p className="text-gray-400 text-sm font-semibold px-2 hidden md:block mb-2">Découvrir mes projets</p>
           
           <div className="flex flex-col">
-            <NavItem icon={<Users size={22} />} label="Projets web" />
-            <NavItem icon={<VideoIcon size={22} />} label="Projets mobile" />
-            <NavItem icon={<VideoIcon size={22} />} label="Games" />
+            <NavItem icon={<Computer size={22} />} label="Web" />
+            <NavItem icon={<Tablet size={22} />} label="Mobile" />
+            <NavItem icon={<Gamepad size={22} />} label="Gaming" />
           </div>
         </div>
         
@@ -30,7 +20,7 @@ const Sidebar: React.FC = () => {
         <div className="mt-6 hidden md:block pb-8">
           <div className="text-gray-500 text-xs px-2">
             <p className="mb-3">
-              Ceci est mon portfolio, grandement inspiré du site web TikTok, crée avec React
+              Ceci est mon portfolio, grandement inspiré du site web TikTok, crée avec React, Tailwind CSS pour le style et Lucide pour les icones.
             </p>
             <p className="mb-3">
               Stack utilisée : Bolt, Cursor, StackBlitz, Netlify

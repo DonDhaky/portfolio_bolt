@@ -69,7 +69,7 @@ const VideoItem: React.FC<VideoItemProps> = ({ video }) => {
           </div>
           <div>
             <button className="px-4 py-1 border border-[#FE2C55] text-[#FE2C55] rounded-md text-sm font-medium hover:bg-[#FE2C55]/10 transition-colors">
-              Follow
+              GitHub
             </button>
           </div>
         </div>

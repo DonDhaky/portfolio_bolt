@@ -51,7 +51,7 @@ const SuggestedAccountsMobile: React.FC = () => {
         </div>
       ))}
       <div className="hidden md:block">
-        <button className="text-[#FE2C55] text-sm hover:underline">See all</button>
+        <button className="text-[#FE2C55] text-sm hover:underline">Voir tous les quizz</button>
       </div>
     </div>
   );
