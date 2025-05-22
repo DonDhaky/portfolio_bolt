@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, MessageCircle, Bell, User, ChevronDown } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
           <div className="w-full relative">
             <input
               type="text"
-              placeholder="Search accounts and videos"
+              placeholder="Rechercher un projet..."
               className="w-full py-2.5 pl-4 pr-12 bg-gray-900 text-white rounded-full focus:outline-none focus:ring-1 focus:ring-gray-700"
             />
             <div className="absolute right-0 top-0 h-full flex items-center px-4 border-l border-gray-700">
@@ -34,16 +34,6 @@ const Navbar: React.FC = () => {
           
           <div className="md:hidden flex items-center">
             <Search size={24} className="text-white mr-5" />
-          </div>
-          
-          <div className="hidden sm:flex space-x-5">
-            <MessageCircle size={24} className="text-white cursor-pointer hover:text-gray-300" />
-            <Bell size={24} className="text-white cursor-pointer hover:text-gray-300" />
-            <User size={24} className="text-white cursor-pointer hover:text-gray-300" />
-          </div>
-          
-          <div className="flex items-center text-white cursor-pointer">
-            <ChevronDown size={20} />
           </div>
         </div>
       </div>
