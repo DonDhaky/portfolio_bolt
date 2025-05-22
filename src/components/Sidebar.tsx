@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Users, Compass, VideoIcon, Sparkles, Music } from 'lucide-react';
+import { Users, Info, VideoIcon, Music } from 'lucide-react';
 import SuggestedAccountsMobile from './SuggestedAccountsMobile';
 
 const Sidebar: React.FC = () => {
@@ -7,10 +7,8 @@ const Sidebar: React.FC = () => {
     <div className="sticky top-16 h-[calc(100vh-64px)] w-[75px] md:w-[240px] bg-black border-r border-gray-800 overflow-y-auto pt-2 flex-shrink-0">
       <div className="px-2">
         <div className="flex flex-col">
-          <NavItem icon={<Home size={22} />} label="For You" active />
-          <NavItem icon={<Users size={22} />} label="Following" />
-          <NavItem icon={<Compass size={22} />} label="Explore" />
-          <NavItem icon={<Sparkles size={22} />} label="LIVE" />
+          <NavItem icon={<Info size={22} />} label="A propos" active />
+          <NavItem icon={<Users size={22} />} label="Projets" />
         </div>
         
         <div className="px-2 mt-4 mb-2 hidden md:block">
